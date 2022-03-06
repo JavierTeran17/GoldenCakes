@@ -1,0 +1,87 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GC Make Your Own</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <form  action="crearpastel"><h2>CREA TU PASTEL</h2>
+        
+        <div name="name">
+            <label for="name">Tu nombre:</label>
+            <input type="text">
+         </div>
+
+         <div name="location">
+            <label for="location">Dirección de entrega:</label>
+            <input type="text" name="location">
+        </div>
+    
+        <div name="tel">
+            <label for="tel">Telefono:</label>
+            <input type="tel" name="tel">
+        </div>
+
+        <div>
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" name="correo">
+        </div>
+
+        <div>
+            <label for="tiempo">Fecha y hora de entrega:</label>
+            <input type="date" name="Fecha" id="">
+            <input type="time" name="Hora">
+        </div>
+
+        <h2>SABORES</h2>
+        <label for="sabor"></label>
+        <input type="checkbox">Chocolate italiano ($15)
+        <input type="checkbox">Fresa China ($15)
+        <br><br>
+        <input type="checkbox">Vainilla de Madagascar ($10)
+        <input type="checkbox">Oro comestible ($60)
+        <br><br>
+        <input type="checkbox">Hersheys Liquido ($10)
+        <input type="checkbox">Nuez de Queretaro ($15)
+        <br><br>
+        <input type="checkbox">Mango de Japón ($20)
+        <input type="checkbox">Formula Secreta ($25)
+
+        <h2>ADORNOS</h2>
+        <label for="adorno"></label>
+        <input type="checkbox">Número(s) de cumpleaños ($15)
+        <input type="number">
+        <br>
+        <input type="checkbox">Vela cumpleaños ($10)
+
+        <h3>¿Para cuantas personas?</h3>
+            <br>
+            <select name="personas" id="">
+                <option value="4">4</option>
+                <option value="6">6</option>
+                <option value="8">8</option>
+                <option value="10">10</option>
+                <option value="12">12</option>
+                <option value="15">15</option>
+                <option value="30">30</option>
+                <option value="45">45</option>
+            </select>
+        <br><br>
+        
+        <label for="comentarios">Comentarios para tu pedido:</label>
+        <br>
+        <textarea name="comentarios" id="" rows="2"></textarea>
+        <br><br><br>
+        <input type="reset"> 
+        <input type="submit">
+        <br><br>
+
+    </form>
+
+</body>
+
+</html>
